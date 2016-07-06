@@ -21,7 +21,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "https://formspree.io/ramachandrajr3@gmail.com",
                 type: "POST",
                 data: {
                     name: name,
@@ -30,7 +30,7 @@ $(function() {
                     message: message
                 },
                 cache: false,
-                success: function() {
+/*                success: function() {
                     // Enable button & show success message
                     $("#btnSubmit").attr("disabled", false);
                     $('#success').html("<div class='alert alert-success'>");
@@ -53,7 +53,7 @@ $(function() {
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
-                },
+                }, */
             });
         },
         filter: function() {
