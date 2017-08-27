@@ -1,0 +1,14 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "global.scss";
+@import "navbar.scss";
+@import "masthead.scss";
+@import "portfolio.scss";
+@import "contact.scss";
+@import "bootstrap-overrides.scss";
+
+// Rj styles custom.
+.profile-pic {
+  border-radius: 100%;
+  height: 230px;
+}
